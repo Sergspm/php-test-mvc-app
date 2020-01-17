@@ -1,0 +1,21 @@
+{
+    "name": "sergspm/php-test-mvc-app",
+    "type": "project",
+    "description": "Test MVC app without frameworks",
+    "keywords": [
+        "test"
+    ],
+    "license": "MIT",
+    "require": {
+        "symfony/routing": "^5.0",
+        "symfony/http-foundation": "^5.0",
+        "doctrine/doctrine-migrations-bundle": "^2.1",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "database\\": "database/"
+        }
+    }
+}
